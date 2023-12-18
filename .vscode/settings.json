@@ -1,3 +1,5 @@
 {
-  "window.autoDetectColorScheme": false
+  "window.autoDetectColorScheme": false,
+  "scm.alwaysShowRepositories": true,
+  "scm.alwaysShowActions": true
 }
