@@ -1,5 +1,6 @@
 {
   "window.autoDetectColorScheme": false,
   "scm.alwaysShowRepositories": true,
-  "scm.alwaysShowActions": true
+  "scm.alwaysShowActions": true,
+  "cSpell.words": ["ПРАВИЛЬНО"]
 }

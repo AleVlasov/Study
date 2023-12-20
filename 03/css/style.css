@@ -1,0 +1,44 @@
+h1{
+   background-color: blueviolet; 
+   text-align: center;
+}
+/* *{декорує повністю всі елементи на сторінці
+} */
+
+header{
+    background-color: grey;
+}
+footer{
+    background-color: aqua;
+}
+/* h1, h2, h3{
+Так треб робити якщо стилі однакові
+} */
+/* h1{
+    background-color: aqua;
+}
+h2{
+    background-color: aqua;
+}
+h3{
+    background-color: aqua;
+
+    Це не правильно !!!!
+} */
+
+/* h1,h2,h3 { 
+    background-color: aqua;
+ЦЕ ПРАВИЛЬНО!!!
+} */
+h3, h4, h5{
+    background-color: blueviolet;
+    color: black;
+}
+.first{
+    background-color:red;
+}
+/* # це стилістика id */
+#unique {
+    background-color: blue;
+    padding: 50px;
+}
