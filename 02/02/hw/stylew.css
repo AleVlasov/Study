@@ -1,0 +1,36 @@
+table {
+    text-align: center;
+    position: relative;
+    border-collapse: collapse;
+    background-color: #f6f6f6;
+}
+
+td,
+th {
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+th {
+    background: white;
+    color: black;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.primary {
+    background-color:white
+}
+
+tfoot>tr {
+    background: black;
+    color: white;
+}
+.cappp{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: rebeccapurple;
+}
+
