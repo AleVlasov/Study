@@ -1,0 +1,48 @@
+/* Top site */
+header{
+width: auto;
+    height: auto;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.logotop1{
+        width: 37px;
+        height: 37px;
+        margin: 18px 200px 23px 250px;
+        padding-right: 99px;
+}
+.logotop2{
+width: 25px;
+    height: 25px;
+    margin: 18px 2px 23px 2px;
+        gap: 17px;
+}
+.logotop3{
+    width: 25px;
+        height: 25px;
+        margin: 18px 250px 23px 2px;
+        gap: 17px;
+}
+/* body */
+div{
+    width: 1440px;
+        height: 421px;
+        align-items: center;
+        background-color: #FAC960;
+}
+.firstcommit{
+    color: #8A6D2F;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 54px;
+}
+.formsearch{
+border: none;
+display: ;
+}
