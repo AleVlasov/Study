@@ -1,48 +1,215 @@
-/* Top site */
-header{
-width: auto;
-    height: auto;
-    display: flex;
-        justify-content: center;
-        align-items: center;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
-.logotop1{
-        width: 37px;
-        height: 37px;
-        margin: 18px 200px 23px 250px;
-        padding-right: 99px;
+header,
+section {
+
+    text-align: center;
+
+    margin: 0 auto;
 }
-.logotop2{
-width: 25px;
-    height: 25px;
-    margin: 18px 2px 23px 2px;
-        gap: 17px;
+
+header {
+    background-color: white;
+    padding: 50px 0;
 }
-.logotop3{
-    width: 25px;
-        height: 25px;
-        margin: 18px 250px 23px 2px;
-        gap: 17px;
+
+.logo {
+    display: inline-block;
+    width: 100px;
+
 }
-/* body */
-div{
-    width: 1440px;
-        height: 421px;
-        align-items: center;
-        background-color: #FAC960;
+
+.social-logo {
+    display: inline-block;
+    width: 480px;
+    text-align: right;
+
 }
-.firstcommit{
+
+.facebook01 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.content-wrapper {
+    background: #FAC960;
+    color: rgba(0, 0, 0, 0.56);
+
+    text-align: center;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 102px;
+    padding-bottom: 140px;
+}
+
+section h1 {
     color: #8A6D2F;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 44px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 54px;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    padding-top: 54px;
+
 }
-.formsearch{
-border: none;
-display: ;
+
+h2 {
+    color: #8A6D2F;
+    text-align: center;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px
 }
+
+.search-button {
+    border: none;
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 2px 0px 0px 2px;
+    width: 420px;
+        height: 54px;
+}
+
+button {
+    border-radius: 0px 2px 2px 0px;
+    background: #A8863D;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    width: 180px;
+    height: 54px;
+}
+
+.second {
+    background-color: #F2F2F2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 311px;
+    padding-right: 310px;
+}
+
+.paragraph1 {
+    color: rgba(0, 0, 0, 0.56);
+    text-align: center;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.textpar1 {
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 400px;
+    margin: 40px auto;
+}
+.image8{
+    width: 187px;
+        height: 96px;
+}
+
+.third03 {
+
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+.mobilepar {
+    width: 940px;
+    padding: 0px 50px 0px 50px;
+    margin: 16px auto;
+}
+
+.paragraph2 {
+    color: rgba(0, 0, 0, 0.56);
+    text-align: center;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.phone{
+    width: 190px;
+        height: 354.567px;
+}
+
+.friendspar {
+    background-color: #FAC960;
+
+}
+
+.friends {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.friends02 {
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 100px;
+}
+.whitebit{
+    width: 61px;
+        height: 22px;
+        border-radius: 3px;
+            border: 1px solid #758696;
+            background: #FFF;
+            margin-bottom: 144px;
+
+}
+
+footer {
+    text-align: center;
+}
+
+.footlogo {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-social-media {
+    padding-top: 30px;
+    display: inline-block;
+    margin-right: auto;
+
+}
+
+.twitter2 {
+    display: inline-block;
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+.facebook2 {
+        display: inline-block;
+            margin-left: 20px;
+            width: 17px;
+            height: 17px;
+            margin-right: 30px;
+            }
+.mail{
+    width: 17px;
+    height: 17px;
+    }
